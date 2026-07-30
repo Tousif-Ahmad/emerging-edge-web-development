@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.container{
+    background-color: #ff0000;
+    /* width: 200px;
+    height: 200px; */
+}
+.container h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 80px;
+}
+.container p{
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    text-align: center;
+}
