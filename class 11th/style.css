@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: aquamarine;
+    padding: 10px;
+    height: 80vh;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-content: end; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.flex-items{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    border: 2px solid black;
+}
