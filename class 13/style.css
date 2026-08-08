@@ -1,0 +1,64 @@
+.container{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+    animation-name: anime;
+    animation-duration: 4s;
+    position: relative;
+    /* animation-iteration-count: 3; */
+    /* animation-delay: 2s; */
+    /* animation-timing-function: ease-in-out; */
+
+}
+
+@keyframes anime {
+    /* from{
+        background-color: red;
+    }
+    to{
+        background-color: yellow;
+        border-radius: 50%;
+
+    } */
+
+    0%{
+        /* background-color: red; */
+        top: 0;
+        left: 0;
+    }
+    25%{
+        /* background-color: green; */
+        top: 0;
+        left: 200px;
+    }
+    50%{
+        /* background-color: blue;
+        border-radius: 50%; */
+        top: 200px;
+        left: 200px;
+    }
+    75%{
+        /* background-color: teal; */
+    }
+    100%{
+        /* background-color: brown; */
+    }
+}
+
+button{
+    border: none;
+    font-size: 70px;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 20px;
+
+    /* transition: background-color 2s; */
+    transition: all 0.4s;
+
+}
+
+button:hover{
+    background-color: blueviolet;
+
+}
